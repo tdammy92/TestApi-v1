@@ -1,6 +1,8 @@
-export const Feeds = [
+import { typesMedia } from "./types";
+
+export const Feeds:typesMedia[] = [
     {
-      "id": 1,
+      // "id": '1',
       "username": "Rachel",
       "type": "video",
       "caption": "Career and growth",
@@ -13,7 +15,7 @@ export const Feeds = [
       "timestamp": "2024-05-13T15:45:00Z"
     },
     {
-      "id": 2,
+      // "id": '2',
       "username": "Damien",
       "type": "image",
       "caption": "Check out this amazing view! 🌅 #nature #travel",
@@ -26,7 +28,7 @@ export const Feeds = [
       "timestamp": "2024-05-14T10:30:00Z"
     },
     {
-      "id": 3,
+      // "id": '3',
       "username": "jackson",
       "type": "video",
       "caption": "Dancing to my favorite song! 💃🎶 #dance #music",
@@ -39,7 +41,7 @@ export const Feeds = [
       "timestamp": "2024-05-13T15:45:00Z"
     },
     {
-      "id": 4,
+      // "id": '4',
       "username": "Camela95",
       "type": "video",
       "caption": "Cooking up a storm in the kitchen! 🍳🔥 #cooking #foodie",
@@ -48,10 +50,11 @@ export const Feeds = [
       "thumbnailUrl": "https://randomuser.me/api/portraits/women/77.jpg",
       "comments": 3245,
       "shares": 2340,
+      "likes": 3982,
       "timestamp": "2024-05-12T20:00:00Z"
     },
     {
-      "id": 5,
+      // "id": '5',
       "username": "Jane",
       "type": "video",
       "caption": "Tech is life",
@@ -60,6 +63,7 @@ export const Feeds = [
       "thumbnailUrl": "https://randomuser.me/api/portraits/women/89.jpg",
       "comments": 3245,
       "shares": 2340,
+      "likes": 500,
       "timestamp": "2024-05-12T20:00:00Z"
     }
   ]

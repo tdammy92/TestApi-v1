@@ -1,7 +1,10 @@
 require("dotenv").config();
 
 import express,{Express,Request,Response} from "express";
+import { v4 as uuidv4 } from 'uuid';
+
 import {Feeds}  from './data'
+import { typesMedia } from "./types";
 
 const port = process.env.PORT || 5000;
 
@@ -13,13 +16,15 @@ const server:Express = express();
 
 
 server.get('/api/feeds/following',(req:Request,res:Response)=>{
-    res.send(Feeds)
+    const response = Feeds?.map((feed:typesMedia)=>({id:uuidv4(),...feed}))
+    res.send(response)
 })
 
 
 
 server.get('/api/feeds/for-you',(req:Request,res:Response)=>{
-    res.send(Feeds.reverse())
+    const response = Feeds?.map((feed:typesMedia)=>({id:uuidv4(),...feed})).reverse()
+    res.send(response)
 })
 
 
