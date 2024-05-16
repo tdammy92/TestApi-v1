@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 import express,{Express,Request,Response} from "express";
 import {Feeds}  from './data'
 
