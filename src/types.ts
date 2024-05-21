@@ -1,11 +1,14 @@
 export type typesMedia= {
-    // id: string
+    id: string
     username: string
-    type: string
-    caption: string
-    videoUrl: string
-    imageUrl: string
-    thumbnailUrl: string
+    caption: string,
+    media: {
+      type: 'video' | 'image',
+      videoUrl: string,
+      imageUrl: string,
+      previewUrl: string
+    },
+    profilePhotoUrl: string
     likes: number
     comments: number
     shares: number
