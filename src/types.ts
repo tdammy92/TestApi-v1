@@ -14,3 +14,20 @@ export type typesMedia= {
     shares: number
     timestamp: string
   }
+
+
+  export type messageT = {
+    id: number
+    body: string
+    postId: number
+    likes: number
+    user: UserT
+    createdAt: string
+  }
+  
+  export type UserT = {
+    id: number
+    username: string
+    fullName: string
+  }
+  
