@@ -467,7 +467,139 @@ export const message =   [
       fullName: "Brayden Fleming"
     },
     createdAt: "2024-05-11 01:19:38"
-  }
+  },
+  {
+    id: 31,
+    body: "On my way there!",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "Jacky",
+      fullName: "Jack Miles"
+    },
+    createdAt: "2024-05-20 01:19:38"
+  },
+  {
+    id: 31,
+    body: "cedi medi vercrid!",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "Gabo90",
+      fullName: "Gabo Fain"
+    },
+    createdAt: "2024-05-20 01:19:38"
+  },
+  {
+    id: 32,
+    body: "we play inteteresine football",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "KolaMain",
+      fullName: "Kola Maina"
+    },
+    createdAt: "2024-06-3 01:19:38"
+  },
+  {
+    id: 33,
+    body: "0k",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "KolaMain",
+      fullName: "Kola Maina"
+    },
+    createdAt: "2024-06-3 05:19:38"
+  },
+  {
+    id: 34,
+    body: "i will revert back",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "KolaMain",
+      fullName: "Kola Maina"
+    },
+    createdAt: "2024-06-3 06:19:38"
+  },
+  {
+    id: 35,
+    body: "got U",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "KolaMain",
+      fullName: "Kola Maina"
+    },
+    createdAt: "2024-06-10 02:19:38"
+  },
+  {
+    id: 36,
+    body: "still on it",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "KolaMain",
+      fullName: "Kola Maina"
+    },
+    createdAt: "2024-06-12 02:19:38"
+  },
+  {
+    id: 37,
+    body: "still on it",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "Hola92",
+      fullName: "Olasheni Taiwo"
+    },
+    createdAt: "2024-06-14 00:19:38"
+  },
+  {
+    id: 38,
+    body: "actively building",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "Hola92",
+      fullName: "Olasheni Taiwo"
+    },
+    createdAt: "2024-06-15 00:19:38"
+  },
+  {
+    id: 39,
+    body: "actively building",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "Hola92",
+      fullName: "Olasheni Taiwo"
+    },
+    createdAt: "2024-06-15 01:19:38"
+  },
+  {
+    id: 40,
+    body: "actively building",
+    postId: 126,
+    likes: 8,
+    user: {
+      id: 89,
+      username: "tdammy",
+      fullName: "damilola Taiwo"
+    },
+    createdAt: "2024-06-15 02:19:38"
+  },
 ];
 
 
