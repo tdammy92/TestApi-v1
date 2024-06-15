@@ -4,8 +4,9 @@ import express,{Express,Request,Response} from "express";
 import { v4 as uuidv4 } from 'uuid';
 const morgan = require('morgan')
 
-import {Feeds}  from './data'
+import {Feeds,message}  from './data'
 import { typesMedia } from "./types";
+import { formatMessage } from "./helper";
 
 const port = process.env.PORT || 5000;
 
@@ -27,6 +28,15 @@ server.get('/api/feeds/following',(req:Request,res:Response)=>{
 server.get('/api/feeds/for-you',(req:Request,res:Response)=>{
     // const response = Feeds?.map((feed:typesMedia)=>({id:uuidv4(),...feed})).reverse()
     const response = Feeds?.reverse()
+    res.send(response)
+})
+
+
+server.get('/api/messages',(req:Request,res:Response)=>{
+
+
+
+    const response =   formatMessage(message)
     res.send(response)
 })
 
